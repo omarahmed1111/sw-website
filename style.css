@@ -1,8 +1,8 @@
 
 
 .left_half{
-    border-right: 1px solid black;
-    height: 90%;
+    
+    height: 70%;
     
 }
 .header{
@@ -23,4 +23,23 @@ form{
 body{
     overflow-y: hidden;
     overflow-x: hidden;
+}
+.right_half{
+    text-align: center;
+    height: 60%;
+    border: 2px ridge red;
+    margin-top: 20%;
+    margin-right:20%;
+    margin-left: 20%;
+}
+.bu{
+    margin-left: 40%;
+    color: blue;
+}
+#generate{
+    background-color: aquamarine;
+}
+.mid_line{
+    height: 100%;
+    border-right: 1px solid black;
 }

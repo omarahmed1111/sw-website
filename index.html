@@ -1,22 +1,22 @@
 <html>
     <head>
         <title>books</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel = "stylesheet" href="bootstrap.min.css">
         <link rel = "stylesheet" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="script.js"></script>
+        <script src="test.js"></script>
     </head>
     <body>
         <div class="row"><div class="col-xs-12"><p class="header">Cover Designer</p></div></div>
         <div class="row" >
-            <div class="col-xs-6" >
+            <div class="col-xs-6 mid_line" >
                 <div class="left_half">
                         <form class="form-horizontal" >
-                            <div class="form-group">
+                            <div class="form-group" >
                                 <label class="control-label col-xs-6"><p class="title">Book title</p></label>
-                                <div class="col-xs-5">
-                                    <input type="text" class="form-control" id="book_title">
+                                <div class="col-xs-5" >
+                                    <input type="text" class="form-control" id="book_title" >
                                 </div>
                             </div>
                             
@@ -51,12 +51,22 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="control-label col-xs-6"><button class="title">Generate</button></div>
+                                <div class="control-label col-xs-6"></div>
                             </div>
                     </form>
+                    
+                </div>
+                <div class="row"><div class="col-xs-7 bu" ><button type="submit" id="generate">Generate</button></div></div>
+            </div>
+            <div class="col-xs-6">
+                <div class="right_half">
+                    <h1 id="header1"></h1>
+                    <h2 id="header2"></h2>
+                    <p id="author"></p>
+                    <p id="publish"></p>
+                    <p id="year"></p>
                 </div>
             </div>
-            <div class="col-xs-6"></div>
         </div>
     
     
