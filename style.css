@@ -19,6 +19,7 @@
 }
 form{
     padding-top: 20%;
+    font-size: 1.4vw;
 }
 body{
     overflow-y: hidden;
@@ -35,6 +36,7 @@ body{
 .bu{
     margin-left: 40%;
     color: blue;
+    font-size: 1vw;
 }
 #generate{
     background-color: aquamarine;
