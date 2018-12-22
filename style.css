@@ -1,0 +1,22 @@
+
+
+.left_half{
+    border-right: 1px solid black;
+    height: 90%;
+    
+}
+.header{
+    height:3%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    background-color: #6B6B6B;
+    color: azure;
+    font-size: 1.4vw;
+}
+.title{
+    text-align: center;
+}
+form{
+    padding-top: 20%;
+}
